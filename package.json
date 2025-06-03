@@ -1,0 +1,16 @@
+{
+  "name": "furniture_website",
+  "version": "1.0.0",
+  "description": "This is made for our project",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "concurrently \"cd frontend && npm run dev\" concurrently\"cd backend && npm run dev\"",
+  "backend": "cd backend && npm run dev"
+},
+  "author": "Dhiru Bhai",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
